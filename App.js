@@ -14,6 +14,7 @@ export default function App() {
            <CarInputComponent/>
            <CarListComponent/>
            <StatusBar style="auto" />
+           
         </View>
       </CarProvider>
     )
