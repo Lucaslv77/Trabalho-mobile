@@ -22,7 +22,9 @@ export default function CarInputComponent(){
             <textInput value={marca} onChagenText={setMarca} placeholder="Marca do Carro" />
             <textInput value={modelo} onChagenText={setModelo} placeholder="Modelo do Carro" />
             <Button title='Adicionar' onPress={addCarro}/>
-           
+            {alert &&
+            <Text>Precisa digitar alguma</Text>
+            }
         </View>
     )
 }
